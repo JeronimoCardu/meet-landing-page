@@ -1,8 +1,94 @@
 @import "tailwindcss";
 
-html, body, #root{
-    width: 100%;
-    height: 100%;
-    font-size: 100%;
-    background-color: #FAFAFA;
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  background-color: #fafafa;
+}
+
+body {
+  font-family: "Red Hat Display";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+}
+
+footer {
+  height: 26.25em;
+  width: 100%;
+}
+.numberFooterContainer {
+  height: 6.75em;
+  z-index: 20;
+}
+.footerContainer {
+  z-index: 10;
+  background-image: linear-gradient(
+      rgba(77, 150, 168, 0.5),
+      rgba(77, 150, 168, 0.5)
+    ),
+    url("./assets/desktop/image-footer.jpg");
+  height: 19.5em;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.imgMobile {
+  display: none;
+}
+
+.textPreset1 {
+  font-size: 4rem;
+  line-height: 110%;
+}
+.textPreset2 {
+  font-size: 2.5rem;
+  line-height: 110%;
+}
+.textPreset3 {
+  font-size: 1rem;
+  line-height: 110%;
+  letter-spacing: 0.25rem;
+}
+.textPreset4 {
+  font-size: 1.125rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+.textPreset5 {
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.btnIsInHero {
+  background-color: #4d96a9;
+  color: white;
+  span {
+    color: #8fe3f9;
+  }
+}
+.btnIsInHero:hover {
+  background-color: #71c0d4;
+  color: white;
+  span {
+    color: #8fe3f9;
+  }
+}
+.btnIsInFooter {
+  background-color: #855fb1;
+  color: white;
+  span {
+    color: #d9b8ff;
+  }
+}
+.btnIsInFooter:hover {
+  background-color: #b18bdd;
+  color: white;
+  span {
+    color: #8fe3f9;
+  }
 }

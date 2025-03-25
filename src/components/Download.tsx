@@ -2,9 +2,9 @@ type Props = {
   isIn: string;
 };
 
-function Download({ bgColor }: Props) {
+function Download({ isIn }: Props) {
   return (
-    <button>
+    <button className={`${isIn} w-[12.0625em] h-[3.5em] rounded-full outline-0`}>
       Download <span>v1.3</span>
     </button>
   );
