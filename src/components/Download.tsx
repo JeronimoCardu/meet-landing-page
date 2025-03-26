@@ -4,7 +4,7 @@ type Props = {
 
 function Download({ isIn }: Props) {
   return (
-    <button className={`${isIn} w-[12.0625em] h-[3.5em] rounded-full outline-0`}>
+    <button className={`${isIn} w-[12.0625em] h-[3.5em] rounded-full outline-0 cursor-pointer`}>
       Download <span>v1.3</span>
     </button>
   );

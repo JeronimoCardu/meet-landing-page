@@ -1,0 +1,50 @@
+/* Desktop */
+.textPreset1 {
+  font-size: 4rem;
+  line-height: 110%;
+}
+.textPreset2 {
+  font-size: 2.5rem;
+  line-height: 110%;
+}
+.textPreset3 {
+  font-size: 1rem;
+  line-height: 110%;
+  letter-spacing: 0.25rem;
+}
+.textPreset4 {
+  font-size: 1.125rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+.textPreset5 {
+  font-size: 1rem;
+  line-height: 150%;
+}
+@media (width <= 1300) {
+  /* Tablet */
+  .textPreset1 {
+    font-size: 3rem;
+  }
+  .textPreset2 {
+    font-size: 2.25rem;
+  }
+  .textPreset3 {
+    font-size: 0.875rem;
+  }
+  .textPreset4 {
+    font-size: 1rem;
+  }
+}
+@media (width <= 560px) {
+  /* Mobile */
+  .textPreset1 {
+    font-size: 2.5rem;
+  }
+  .textPreset2 {
+    font-size: 2rem;
+  }
+  .textPreset3 {
+    font-size: 0.75rem;
+  }
+}
